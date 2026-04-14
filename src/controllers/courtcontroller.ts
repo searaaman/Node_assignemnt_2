@@ -1,4 +1,4 @@
-import type { Request, Response } from 'express'; // Add 'type' here
+import type { Request, Response } from 'express'; 
 import * as CourtModel from '../models/courtModel.js';
 
 export const getCourts = async (req: Request, res: Response) => {
